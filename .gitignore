@@ -1,0 +1,15 @@
+Library
+Logs
+android
+BundleCache
+ios
+Temp
+obj
+.vs
+.vscode/
+.vsconfig
+/*.csproj
+/*.csproj.user
+/*.sln
+/Assets/StreamingAssets
+/Res/

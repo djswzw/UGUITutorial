@@ -1,0 +1,35 @@
+Button {
+    display: flex;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    opacity: 1;
+    -unity-background-scale-mode: stretch-to-fill;
+    background-color: rgb(255, 0, 0);
+}
+
+#buttop-Play {
+    display: flex;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    opacity: 1;
+    -unity-background-scale-mode: stretch-to-fill;
+    background-color: rgb(255, 196, 0);
+}
+
+.green-button {
+    display: flex;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    opacity: 1;
+    -unity-background-scale-mode: stretch-to-fill;
+    background-color: rgb(78, 255, 0);
+}
