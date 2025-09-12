@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2b1b9475db92464b91383a6aaac15d0, type: 3}
+  m_Name: ImageFontData
+  m_EditorClassIdentifier: 
+  mappings:
+  - character: 43
+    sprite: {fileID: 21300000, guid: 4f4e18bb206d13b4485812109b4e06db, type: 3}
+  - character: 45
+    sprite: {fileID: 21300000, guid: 5303afe83f1d19540b70fea4c90ccb58, type: 3}
+  - character: 48
+    sprite: {fileID: 21300000, guid: 41b324155f9d65840aaa4b77452c33b0, type: 3}
+  - character: 49
+    sprite: {fileID: 21300000, guid: 9a2f8895ef6174340ab74cb3b649715c, type: 3}
+  - character: 50
+    sprite: {fileID: 21300000, guid: 472894dfaed6c30419a4cf96ce51b45f, type: 3}
+  - character: 51
+    sprite: {fileID: 21300000, guid: d6265c60141eb1543a37449904618d32, type: 3}
+  - character: 52
+    sprite: {fileID: 21300000, guid: 75f950873e5d7cd4c9468907d02850aa, type: 3}
+  - character: 53
+    sprite: {fileID: 21300000, guid: e5fa522f3478391438cad429069f673d, type: 3}
+  - character: 54
+    sprite: {fileID: 21300000, guid: fb64cad21f8010042a3353fc04dc9b7c, type: 3}
+  - character: 55
+    sprite: {fileID: 21300000, guid: a50f82c2d3d67284c9f283962ba7168f, type: 3}
+  - character: 56
+    sprite: {fileID: 21300000, guid: 6d579f33dfb843544a31f37eb37f8313, type: 3}
+  - character: 57
+    sprite: {fileID: 21300000, guid: 6517aa6439478e54aabea968efbf0dc1, type: 3}
+  - character: 44
+    sprite: {fileID: 21300000, guid: 13c7a0f15034c42469d5acc8308eb87e, type: 3}
+  - character: 46
+    sprite: {fileID: 21300000, guid: 81cfcd13c47970c42963c0e6b93d8072, type: 3}
+  - character: 75
+    sprite: {fileID: 21300000, guid: 25e4463c761ebdc4d95d0a75c88b9b50, type: 3}
+  - character: 66
+    sprite: {fileID: 21300000, guid: 4bd13cd3a4f5a7244aba3b38e3836d3b, type: 3}
+  - character: 77
+    sprite: {fileID: 21300000, guid: ad0e2afbbf71a36488ea084778d352f3, type: 3}
+  defaultLineHeight: 100
