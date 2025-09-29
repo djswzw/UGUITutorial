@@ -5,15 +5,17 @@ using UnityEngine.UI;
 
 public class TestLoopScroll : MonoBehaviour
 {
+    public int initCount = 200;
     public VerticalLoopScrollRect loopScrollRect;
     public HorizontalLoopScrollRect hloopScrollRect;
+    public GridLoopScrollRect gloopScrollRect;
     public List<string> myData; // 我们的数据源
 
     void Start()
     {
         // 准备一些测试数据
         myData = new List<string>();
-        for (int i = 0; i < 1000; i++)
+        for (int i = 0; i < initCount; i++)
         {
             myData.Add("Item " + i);
         }
@@ -29,6 +31,12 @@ public class TestLoopScroll : MonoBehaviour
 
         // 向循环列表提供数据
         hloopScrollRect.ProvideData(myData.Count);
+
+        // 订阅Item更新事件
+        gloopScrollRect.OnItemUpdate += OnItemUpdate;
+
+        // 向循环列表提供数据
+        gloopScrollRect.ProvideData(myData.Count);
     }
 
     // 当Item需要更新显示时，此方法会被调用
@@ -54,6 +62,7 @@ public class TestLoopScroll : MonoBehaviour
         }
         loopScrollRect.ProvideData(myData.Count);
         hloopScrollRect.ProvideData(myData.Count);
+        gloopScrollRect.ProvideData(myData.Count);
     }
 
     public void Jump()
@@ -64,5 +73,10 @@ public class TestLoopScroll : MonoBehaviour
     public void JumpHorizon()
     {
         hloopScrollRect.ScrollTo(500, false);
+    }
+
+    public void JumpGrid()
+    {
+        gloopScrollRect.ScrollTo(500, false);
     }
 }
